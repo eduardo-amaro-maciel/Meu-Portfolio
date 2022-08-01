@@ -23,4 +23,8 @@
 
 # Preview
 
+<div align="center">
+
 ![q](https://user-images.githubusercontent.com/73178068/182065408-9df0f2fd-1211-44ac-bd38-73f2792fd1cc.png)
+
+</div>
