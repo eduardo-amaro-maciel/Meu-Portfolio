@@ -13,10 +13,14 @@
 
 # Tecnologias
 
-  <div align="center" style="padding=0;width=50%;">
-      <img style="width: 60px; " src="https://seeklogo.com/images/U/uikit-logo-8CE34FE030-seeklogo.com.png" alt="">
-      <img style="width: 60px; " src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="">
-      <img style="width: 60px; " src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png" alt="">
-      <img style="width: 60px; " src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="">
-      <img style="width: 300px;" src="https://www.staticforms.xyz/static/images/logo.png" alt="">
-  </div> 
+<div align="center" style="padding=0;width=50%;">
+    <img style="width: 60px; " src="https://seeklogo.com/images/U/uikit-logo-8CE34FE030-seeklogo.com.png" alt="">
+    <img style="width: 60px; " src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="">
+    <img style="width: 60px; " src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png" alt="">
+    <img style="width: 60px; " src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="">
+    <img style="width: 300px;" src="https://www.staticforms.xyz/static/images/logo.png" alt="">
+</div> 
+
+# Preview
+
+![q](https://user-images.githubusercontent.com/73178068/182065408-9df0f2fd-1211-44ac-bd38-73f2792fd1cc.png)
