@@ -44,3 +44,7 @@ html {
 body, html {
     background-color: var(--cor-cinza);
 }
+
+body {
+    overflow-x: hidden !important;
+}
