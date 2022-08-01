@@ -1,0 +1,48 @@
+.width-100{
+    width: 100%;
+    background-color: var(--cor-preto) !important;
+    padding: 40px 10px;
+}
+
+.background-img {
+    background-image: url(../../assets/img/logo.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 420px;
+    padding: 0;
+}
+
+.contato-input {
+    margin-top: 40px;
+    max-width: 440px;
+}
+
+.input {
+    resize: none;
+    width: 100%;
+    background-color: rgba(23, 23, 23, 0.608);
+    border: 2px solid var(--cor-branco);
+    backdrop-filter: blur(10px);
+    border-radius: 7px;
+    margin-bottom: 10px;
+    min-height: 55px;
+    max-height: 200px;
+    padding: 8px 15px;
+    color: var(--cor-branco);
+    font-family: var(--fonte-poppins);
+    font-size: 18px;
+}
+
+.btn-enviar {
+    margin: 0;
+    padding: 10px 40px;
+    font-size: 16px;
+}
+
+.input:focus {
+    border-color: var(--cor-rosa);
+    transition: .7s;
+}
+
+textarea::placeholder {
+}

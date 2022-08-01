@@ -1,0 +1,43 @@
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Navegacao top */
+
+.offcanvas {
+    max-width: 200px;
+    max-height: 210px;
+    border-bottom-left-radius: 30px;
+    border: 2px solid var(--cor-rosa) !important;
+}
+
+.navbar-dark {
+    background-color: var(--cor-preto) !important;
+    position: fixed;
+}
+
+.offcanvas-title {
+    color: var(--cor-branco);
+}
+
+.nav-link {
+    font-family: var(--fonte-poppins);
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--cor-branco);
+}
+
+.logo {
+    width: 40px;
+}
+
+.navbar-toggler {
+    border: 2px solid var(--cor-rosa);
+    background-color: var(--cor-cinza);
+}
+
+.toggle-menu {
+    width: 30px;
+    fill: var(--cor-rosa);
+}

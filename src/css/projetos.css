@@ -1,0 +1,45 @@
+li[uk-slider-item] a {
+    background-color: var(--cor-rosa);
+}
+
+iframe {
+    border-radius: 30px;
+}
+
+.uk-card {
+    border-radius: 32px;
+    border: 5px solid var(--cor-branco);
+}
+
+.uk-card-title {
+    text-align: center;
+    font-size: 24px;
+    font-family: var(--fonte-poppins) !important;
+    font-weight: 500 !important;
+}
+
+.card-info {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: var(--fonte-poppins);
+    line-height: 22px;
+}
+
+.link-github {
+    color: var(--cor-rosa) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.uk-slider-container-offset {
+    margin-top: 40px;
+}
+
+@media (max-width: 942px) {
+    
+    body {
+        overflow-x: hidden;
+    }
+}

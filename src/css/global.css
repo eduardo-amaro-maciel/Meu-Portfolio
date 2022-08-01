@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+:root {
+    --cor-rosa: #f2005e;
+    --cor-hover: #eb5a92;
+    --cor-preto: #212121;
+    --cor-cinza: #424242;
+    --cor-branco: #fff;
+
+    --fonte-poppins: 'Poppins';
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*::selection {
+    color: var(--cor-preto) !important;
+    background-color: var(--cor-rosa) !important;
+}
+
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--cor-preto);
+}
+  
+*::-webkit-scrollbar-thumb {
+    background-color: var(--cor-rosa);
+    border-radius: 10px;
+    border: 1px solid var(--cor-rosa);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body, html {
+    background-color: var(--cor-cinza);
+}

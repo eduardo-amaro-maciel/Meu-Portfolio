@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meu portfólio onde você você conhece mais sobre mim">
+    <meta name="author" content="Eduardo Amaro Maciel">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="Portfolio, Eduardo Amaro Maciel, HTML">
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#f2005e">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#f2005e">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#f2005e">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.1/dist/css/uikit.min.css" />
+    
+    <link rel="stylesheet" href="src/css/global.css">
+    <link rel="stylesheet" href="src/css/nav.css">
+    <link rel="stylesheet" href="src/css/home.css">
+    <link rel="stylesheet" href="src/css/sobre.css">
+    <link rel="stylesheet" href="src/css/projetos.css">
+    <link rel="stylesheet" href="src/css/contato.css">
+    <link rel="stylesheet" href="src/css/footer.css">
+    <link rel="shortcut icon" href="assets/icons/favicon.ico" type="image/x-icon">
+
+    <title>Portfólio | Eduardo Amaro Maciel</title>
+</head>
+
+<body>
+    
+    <header>
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container-fluid container ">
+                <a class="navbar-brand" href="#"><img class="logo" src="assets/img/logo.png" alt="logo pagina"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                    <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="toggle-menu">
+                        <path d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/>
+                    </svg>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                    aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#sobre">Sobre</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contato">Contate-me</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section class="container" id="home">
+            <div class="container-topo">
+                <div class="intro">
+                    <div class="container-personagem">
+                        <img src="assets/img/personagem.png" class="personagem" alt="meu personagem">
+                    </div>
+                    <div class="intro-container">
+                        <div class="intro-nome">
+                            <h1 class="nome-topo titulo">Eduardo Amaro Maciel</h1>
+                        </div>
+                        <div class="intro-subtexto">
+                            <p class="subtexto">Desenvolvedor Front-End.</p>
+                        </div>
+                        <div class="intro-btn">
+                           
+                                <a class="btn-contate-me" href="#contato">Vamos conversar ❯</a>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="blur-topo">
+                    <ul class="lista-skill">
+                        <li class="skill" uk-tooltip="title: JavaScript"><i class="fa-brands fa-js"></i></li>
+                        <li class="skill" uk-tooltip="title: HTML"><i class="fa-brands fa-html5"></i></li>
+                        <li class="skill" uk-tooltip="title: CSS"><i class="fa-brands fa-css3"></i></li>
+                        <li class="skill" uk-tooltip="title: Node.js"><i class="fa-brands fa-node"></i></li>
+                        <li class="skill" uk-tooltip="title: Bootstrap"><i class="fa-brands fa-bootstrap"></i></li>
+                        <li class="skill" uk-tooltip="title: Font-Awesome"><i class="fa-solid fa-font-awesome"></i></li>
+                        <li class="skill" uk-tooltip="title: UIkit"><i class="fa-brands fa-uikit"></i></li>
+                        <li class="skill" uk-tooltip="title: Git"><i class="fa-brands fa-git-alt"></i></li>
+                        <li class="skill" uk-tooltip="title: Python"><i class="fa-brands fa-python"></i></li>
+                        <li class="skill" uk-tooltip="title: React / React Native"><i class="fa-brands fa-react"></i></li>
+                        <li class="skill" uk-tooltip="title: MySql / SQLite"><i class="fa-solid fa-database"></i></li>
+                        <li class="skill" uk-tooltip="title: Figma"><i class="fa-brands fa-figma"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <div class="container">
+        <section id="sobre">
+            <div class="container-titulo">
+                <h1 class="titulo">Sobre</h1>
+            </div>
+            <div class="sobre-conteudo">
+                <div class="container-paragrafo">
+                    <p class="sobre-paragrafo subtexto">
+                        Atualmente estou fazendo o curso tecnólogo de 
+                        Sistemas Para Internet pela Universidade do 
+                        Vale do Itajaí (2021). Sempre fui um entusiasta 
+                        da tecnologia e adoro resolver problemas reais 
+                        em forma de código. Tenho um grande interesse 
+                        de participar do processo criativo em desenvolvimento de software.
+                    </p>
+                </div>
+                <div class="container-foto">
+                    <img class="foto" src="assets/img/foto_1.png" alt="minha foto">
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos">
+            <div class="container-titulo">
+                <h1 class="titulo">Projetos</h1>
+            </div>
+            <div class="uk-slider-container-offset" uk-slider>
+                <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+                    <ul class="uk-slider-items uk-child-width-1-2@s uk-grid">
+                        <li>
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-media-top">
+                                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/W_dJIbA5-fA?&controls=0?modestbranding=1" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                                <div class="uk-card-body">
+                                    <h3 class="uk-card-title">Artip Web Site</h3>
+                                    <p class="card-info">Site feito para demonstração do App Artip, feito com HTML, CSS e JS puro, sem uso de frameworks 🎨.</p>
+                                    <a href="https://github.com/eduardo-amaro-maciel/Artip-App-Site" class="link-github" target="_blank">ver no github</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-media-top">
+                                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/HlIP6B5h8hc?&controls=0?modestbranding=1" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                                <div class="uk-card-body">
+                                    <h3 class="uk-card-title">CEP FINDER</h3>
+                                    <p class="card-info">Teste de Webservice gratuito Fpara consulta de CEP, usando a API pública ViaCEP com auto-complete 🌅.</p>
+                                    <a href="https://github.com/eduardo-amaro-maciel/CEP-Finder-JS" class="link-github" target="_blank">ver no github</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-media-top">
+                                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/z6G_D-YhyGQ?&controls=0?modestbranding=1" allowfullscreen></iframe>
+                                </div>
+                                <div class="uk-card-body">
+                                    <h3 class="uk-card-title">TodoList-JS</h3>
+                                    <p class="card-info">Lista e tarefas Web Feito com HTML, CSS e JS puro, usando localhost para armazenar as tasks 📱.</p>
+                                    <a href="https://github.com/eduardo-amaro-maciel/ToDoList-JS" class="link-github" target="_blank">ver no github</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-media-top">
+                                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/ITcK8CIee2s?&controls=0?modestbranding=1" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                                <div class="uk-card-body">
+                                    <h3 class="uk-card-title">Portfólio v1.0</h3>
+                                    <p class="card-info">Meu modelo de portfólio antigo feito com HtML, CSS e JS, sendo hospedado pelo GitHub 🛸.</p>
+                                    <a href="https://github.com/eduardo-amaro-maciel/Modelo-Port-Antigo" class="link-github" target="_blank">ver no github</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-media-top">
+                                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/vdzv1Osvmw4?&controls=0?modestbranding=1" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                                <div class="uk-card-body">
+                                    <h3 class="uk-card-title">Cadastro de Usuários</h3>
+                                    <p class="card-info">Sistema Web para cadastro e controle de usuários feito com HTML, CSS e JS junto com armazenamento SQLite 🧙.</p>
+                                    <a href="https://github.com/eduardo-amaro-maciel/Controle-de-cadastro-usuarios" class="link-github" target="_blank">ver no github</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-media-top">
+                                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/oztvad4eIMk?&controls=0?modestbranding=1" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                                <div class="uk-card-body">
+                                    <h3 class="uk-card-title">API Picture Dogs</h3>
+                                    <p class="card-info">Projeto feito quando eu ainda estava aprendendo a fazer uma requisição a API para gerar fotos aléatorias de cachorros 🐶.</p>
+                                    <a href="https://github.com/eduardo-amaro-maciel/JS-API-Pic-Dogs" class="link-github" target="_blank">ver no github</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-media-top">
+                                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/aXiCy6W9qac?&controls=0?modestbranding=1" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                                <div class="uk-card-body">
+                                    <h3 class="uk-card-title">Portfólio v2.0</h3>
+                                    <p class="card-info">Meu segundo portfólio feito, simples porém totalmente responsivo e sendo hospedado pelo GitHub ⚡.</p>
+                                    <a href="https://github.com/eduardo-amaro-maciel/Port" class="link-github" target="_blank">ver no github</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-media-top">
+                                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/xYxkTaATTpc?&controls=0?modestbranding=1" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                                <div class="uk-card-body">
+                                    <h3 class="uk-card-title">Sistema de Crédiario</h3>
+                                    <p class="card-info">Sistema de Crédiario feito com Bootstrap, onde o principal foco era a usabilidade 🌊.</p>
+                                    <a href="https://github.com/eduardo-amaro-maciel/Sistema-Cred" class="link-github" target="_blank">ver no github</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-media-top">
+                                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/80_cUQ0OA9k?&controls=0?modestbranding=1" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                                <div class="uk-card-body">
+                                    <h3 class="uk-card-title">Portfólio v3.0</h3>
+                                    <p class="card-info">Meu portfólio de introdução antigo, modelo v3 🤖.</p>
+                                    <a href="https://github.com/eduardo-amaro-maciel/Portfolio-v3" class="link-github" target="_blank">ver no github</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>     
+                </div>
+                <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+            </div>
+        </section>
+    </div>
+
+    <section id="contato" class="width-100">
+        <div class="container background-img">
+            <div class="container-titulo">
+                <h1 class="titulo">Contate-me</h1>
+            </div>
+
+            <!-- Static forms -->
+
+            <form class="contato-input" action="https://api.staticforms.xyz/submit" method="post">
+                <input type="hidden" name="accessKey" value="4d9c20f2-b8bc-4470-af5f-ea0531bb699b"> <!-- Necessario -->
+                <input type="hidden" name="redirectTo" value="#">
+
+                <div class="container-input">
+                    <input type="text" placeholder="Seu nome" class="input" name="name">
+                </div>
+                <div class="container-input">
+                    <input type="text" placeholder="Seu e-mail" class="input" name="email">
+                </div>
+                <div class="container-input">
+                    <textarea cols="30" rows="10" placeholder="Sua mensagem" class="input" name="message"></textarea>
+                </div>
+                <div class="container-input">
+                    <button class="btn-contate-me btn-enviar">
+                        Enviar ❯
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer container">
+        <div class="copyright">
+           <span class="nome-footer">Eduardo Amaro Maciel &copy; 2022</span>
+        </div>
+        <div class="container-rede">
+            <ul class="lista-contato">
+                <li class="contato" uk-tooltip="title: Linkedin">
+                    <a target="_blank" href="https://www.linkedin.com/in/eduardo5555/"> <i class="fa-brands fa-linkedin-in"></i></a>
+                </li>
+                <li class="contato" uk-tooltip="title: WhatsApp">
+                    <a target="_blank" href="https://wa.me/5547997624220?text=Ol%C3%A1,%20me%20chamo%20Eduardo%20Amaro,%20sou%20desenvolvedor%20front-end,%20vamos%20conversar?"> <i class="fa-brands fa-whatsapp"></i></a>
+                </li>
+                <li class="contato" uk-tooltip="title: E-mail">
+                    <a target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&to=eduardo.amaro164@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                </li>
+                <li class="contato" uk-tooltip="title: Instagram">
+                    <a target="_blank" href="https://www.instagram.com/eduamaro.m/"> <i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li class="contato" uk-tooltip="title: GitHub">
+                    <a target="_blank" href="https://github.com/eduardo-amaro-maciel"><i class="fa-brands fa-github"></i></a>
+                </li>
+            </ul>
+       </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/afed8db424.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.1/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.1/dist/js/uikit-icons.min.js"></script>
+    <script src="src/js/loader/index.js"></script>
+
+    <noscript>
+        <p>Seu navegador não suporta JavaScript</p>
+    </noscript>
+</body>
+
+</html>

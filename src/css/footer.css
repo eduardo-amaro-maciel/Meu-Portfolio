@@ -1,0 +1,35 @@
+.nome-footer {
+    color: var(--cor-rosa);
+    font-size: 18px;
+    font-family: var(--fonte-poppins);
+    font-weight: 600;
+    padding-bottom: 5px;
+    text-align: center;
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.lista-contato {
+    display: flex;
+   
+    
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato > a {
+    text-decoration: none;
+    color: var(--cor-branco);
+    padding: 7px 15px;
+}
