@@ -4,7 +4,7 @@
   <img src="https://github.com/eduardo-amaro-maciel/Meu-Portfolio/blob/main/assets/img/personagem.png" style="width: 400px" alt="">
 </div>
 <div align="center" style="padding=0;width=50%;">
-  <h1>Olá 👋, esse é o meu portfólio</h1>
+  <h1>Olá 👋🏼, esse é o meu portfólio</h1>
   <p>Esse é o meu portfólio pessoal hospedado pelo GitHub</p>
   <p>Conheça mais sobre mim, veja alguns dos meus projetos, ou entre em contato comigo acessando o <a href="https://eduardo-amaro-maciel.github.io/Meu-Portfolio/">link da página</a></p>
 </div>
